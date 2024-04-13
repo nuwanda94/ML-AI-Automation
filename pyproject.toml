@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ml-ai-automation"
+version = "0.1.0"
+description = "Automation AI ML"
+authors = ["Karan Verma <131578982+nuwanda94@users.noreply.github.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ruff = "^0.3.7"
+tensorflow = "^2.16.1"
+pytest = "^8.1.1"
+pandas = "^2.2.2"
+cleanml = "^0.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
